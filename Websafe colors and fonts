@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> <!-- empty or void tag -->
+    <style> /*embedded or internal style sheet */
+      
+      
+      body {
+        background-color: #343;
+        /* #rbg: 0123456789abcdef, websafe colors.info */
+      }
+      div {
+        background-color: #333;
+       padding: 1em 1em 1em 1em;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        margin: 1em 1em 1em 1em; /* 1em = 16px */
+      }
+      
+      h1 {
+        font-family: serif, sans-serif, monospace, cursive, fantasy;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-family: Verdana, "Trebuchet MS", Arial, sans-serif;
+        font-family: monospace;
+        color: #f0f;
+        margin-top: 0;
+        margin-bottom: .5em;
+      }
+      
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+       
+      }
+      
+      
+      
+      
+    </style>
+    <!-- mobile friendly -->
+    <meta name="viewport" content="width=device-width">
+    <title>Markup & style / Recipe</title>
+    <meta name="author" content="Tucker Lemmer">
+  </head>
+  
+  <div>
+  <h1>Hello, World!</h1>
+  <p> This is a paragraph. </p>
+  </div>
+  
+  
+  make some websafe fonts and colors, do some cool stuff
+  
+
+</html>
