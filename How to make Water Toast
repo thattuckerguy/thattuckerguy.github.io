@@ -1,41 +1,124 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device=width">
     <title>How to make water toast</title>
     <meta name="author" content="Tucker Lemmer">
+    <style>
+       
+      body {
+        background-color: #995;
+        /* #rbg: 0123456789abcdef, websafe colors.info */
+      }
+      div {
+        background-color: #333;
+      
+        margin: 1em 1em 1em 1em; /* 1em = 16px */
+      }
+      
+      h1 {
+        font-family: serif, sans-serif, monospace, cursive, fantasy;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-family: Verdana, "Trebuchet MS", Arial, sans-serif;
+        font-family: monospace;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: .5em;
+      }
+      
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #fff;
+       
+      }
+      
+      details {
+        color: #fff
+      }
+      
+      section {
+        color: #fff
+      }
+      
+      /* extra css stuff */
+      h1 {
+  text-transform: capitalize;
+}
+
+header h1,
+header h2 {
+  display: inline;
+}
+
+header h1 {
+  margin-top: 1em;
+  margin-right: .2em;
+}
+ 
+/* id selector, specific, unique: fragment, landmark */
+
+/* class selector, generic, reusable, applies to all selectors in elements */
+span.allcaps {
+  text-transform: uppercase;
+}
+#ingredients {
+  background-color: #ccc;
+  padding: 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f00;
+  border: 1px solid #f00
+  border-top: 3px solid #f0f;
+  margin: 1em 0 0;
+}
+#ingredients h2 {
+  margin-top: 0;
+  margin-bottom 0;
+  /* p tags have margin top and bottom default applied */
+}
+#ingredients p {
+  margin: 0;
+}
+section li {
+  padding: 1em 0;
+  border-top 1px solid #fff;
+}
+    </style>
+     
   </head>
   <body>
-    <h1>How to make Water Toast</h1>
+    
+    <header>
+      <h1> <span class="allcaps">How To Make:</span> Water Toast</h1>
 
- 
-   
 <p> A common recipe from the early 1900's, water toast is not really an appealing meal, but stands to show human creativity with the means available to them
-     
+   <article>  
+  <section id="ingredients">
   
-  <details> 
-     <summary>Ingredients</summary>
     <section>
+      <h2>Ingredients</h2>
       <ol>
-        <li>2 slices dry toast</li>
-        <li>3/4 tsp. of salt</li>
-        <li>1 cup of boiling water</li>
-        <li>1/2 tbsp. of butter</li>
+        <li><b>2 slices</b> dry toast</li>
+        <li><b>3/4 tsp.</b> of salt</li>
+        <li><b>1 cup</b> boiling water</li>
+        <li><b>1/2 tbsp.</b> butter</li>
      
       </ol>
     </section>
-    </details>
- 
+    </article>
+    
     <section>
+      <h2> Instructions </h2>
       <ol>
         <li> Toast bread (via toaster, grill, etc.) </li>
         <li> Boil the cup of water and add in salt, place boiling salt water in seperate dish </li>
         <li> Dunk each piece individually in the hot water dish until sufficiently soaked </li>
         <li> Spread butter on toast </li>
-        <li> Serve immediatly </li>
-        <li> Realize making water toast was a bad idea
-        <li> Dispose of immediately
+        <li> <s> Serve immediatly </s></li>
+        <li> Realize making water toast was a bad idea </li>
+        <li> Dispose of immediately </li>
           
       </ol>
     
