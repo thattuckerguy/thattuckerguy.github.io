@@ -6,8 +6,7 @@
     <title>How to make water toast</title>
     <meta name="author" content="Tucker Lemmer">
     <style>
-       
-      body {
+          body {
         background-color: #995;
         /* #rbg: 0123456789abcdef, websafe colors.info */
       }
@@ -17,30 +16,49 @@
         margin: 1em 1em 1em 1em; /* 1em = 16px */
       }
       
+       
       h1 {
         font-family: serif, sans-serif, monospace, cursive, fantasy;
         font-family: Georgia, Times, "Times New Roman", serif;
-        font-family: Verdana, "Trebuchet MS", Arial, sans-serif;
-        font-family: monospace;
+        font-family: Verdana, "Trebuchet MS", sans-serif;
+        font-family: gerogia;
         color: #fff;
-        margin-top: 0;
-        margin-bottom: .5em;
+        margin-top: 1;
+        margin-bottom: 1em;
       }
       
+        h2 {
+            font-family: georgia;
+           
+        
+        }
+        
+        h3 {
+            font-family: gerorgia;
+        }
       p {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 2em;
+        margin-bottom: 2em;
         color: #fff;
        
       }
       
-      details {
-        color: #fff
+      ol *{
+        margin-top: 1em;
+        padding: 1em
+            
+        
+        
       }
       
-      section {
-        color: #fff
+      section * {
+        margin-top: 1;
+        color: #fff;
       }
+        
+        s * {
+            margin 0em; 
+        }
       
       /* extra css stuff */
       h1 {
@@ -53,7 +71,7 @@ header h2 {
 }
 
 header h1 {
-  margin-top: 1em;
+  margin-top: .1em;
   margin-right: .2em;
 }
  
@@ -64,28 +82,29 @@ span.allcaps {
   text-transform: uppercase;
 }
 #ingredients {
-  background-color: #ccc;
+  background-color: #cc49;
   padding: 1em;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #f00;
-  border: 1px solid #f00
-  border-top: 3px solid #f0f;
-  margin: 1em 0 0;
+  border-width: px;
+  border-style: double;
+  border-color: #ff0;
+ 
 }
-#ingredients h2 {
-  margin-top: 0;
-  margin-bottom 0;
+
+        #instructions {
+            margin: 1em;
+            padding: 0em;
+            border-style: inset;
+            
+        }
   /* p tags have margin top and bottom default applied */
-}
-#ingredients p {
-  margin: 0;
-}
-section li {
-  padding: 1em 0;
-  border-top 1px solid #fff;
-}
+
+
+      s{
+        margin: 0em;
+      }
+
     </style>
+   
      
   </head>
   <body>
@@ -93,22 +112,26 @@ section li {
     <header>
       <h1> <span class="allcaps">How To Make:</span> Water Toast</h1>
 
-<p> A common recipe from the early 1900's, water toast is not really an appealing meal, but stands to show human creativity with the means available to them
+        <p> A common recipe from the early 1900's, water toast is not considered an <i>appealing</i> meal, but stands to show human creativity with the means available to them.</p>
+     </header>
+      
+      
    <article>  
   <section id="ingredients">
-  
-    <section>
+        <section>
       <h2>Ingredients</h2>
-      <ol>
+      <ul>
         <li><b>2 slices</b> dry toast</li>
         <li><b>3/4 tsp.</b> of salt</li>
         <li><b>1 cup</b> boiling water</li>
         <li><b>1/2 tbsp.</b> butter</li>
      
-      </ol>
+      </ul>
     </section>
-    </article>
-    
+          </article>
+          
+       
+    <section id="instructions"> </section>
     <section>
       <h2> Instructions </h2>
       <ol>
@@ -116,11 +139,13 @@ section li {
         <li> Boil the cup of water and add in salt, place boiling salt water in seperate dish </li>
         <li> Dunk each piece individually in the hot water dish until sufficiently soaked </li>
         <li> Spread butter on toast </li>
-        <li> <s> Serve immediatly </s></li>
+        <li><s>Serve immediately</s></li>
         <li> Realize making water toast was a bad idea </li>
         <li> Dispose of immediately </li>
           
       </ol>
+     </section>
+          
     
     
   
